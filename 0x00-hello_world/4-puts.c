@@ -1,5 +1,5 @@
-#!/bin/bash
 #include <stdio.h>
+#include <string.h>
 
 /**
  * main - print the string in the put function
