@@ -2,6 +2,8 @@
 /**
  * main - Print all numbers of base 16 in lowercase
  *
+ * Description: using the putchar function
+ * this program prints "Programming is base 16 lowercase
  * Return: 0
  */
 int main(void)
