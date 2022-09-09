@@ -2,23 +2,21 @@
 /**
  * main - Print a hexadecimal string
  *
- * Description: using the putchar function
- * this program prints "Programming is base 16 lowercase
- * Return: Always (Success)
+ * Return: 0
  */
 int main(void)
 
 {
-char c;
+char base_16;
 
-for (c = '48'; c <= '57'; c++)
+for (base_16 = '48'; base_16 <= '57'; base_16++)
 {
-putchar(c);
+putchar(base_16);
 }
 
-for (c = '97'; c <= '102'; c++)
+for (base_16 = '97'; base_16 <= '102'; base_16++)
 {
-putchar(c);
+putchar(base_16);
 }
 
 putchar('\n');
