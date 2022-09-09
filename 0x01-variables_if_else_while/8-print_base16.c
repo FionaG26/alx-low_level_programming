@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Print a hexadecimal string
  *
@@ -8,20 +7,21 @@
  * Return: Always (Success)
  */
 int main(void)
+
 {
-	char c
+char c;
 
-	for (c = '0'; c <= '9'; c++)
-	{
-		putchar(c);
-	}
+for (c = '48'; c <= '57'; c++)
+{
+putchar(c);
+}
 
-	for (c = 'a'; c <= 'f'; c++)
-	{
-		putchar(c);
-	}
+for (c = '97'; c <= '102'; c++)
+{
+putchar(c);
+}
 
-	putchar('\n');
+putchar('\n');
 	
-	return (0)
+return (0)
 }
