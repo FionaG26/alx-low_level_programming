@@ -15,7 +15,7 @@
 int main(void)
 
 {
-
+	/* your code goes there*/
 	int num;
 
 	char letter;
