@@ -3,7 +3,7 @@
  * main - Print the alphabet in lowercase letters, except for q & e
  *
  * Description: using the main function
- * this program prints "Programming is alphabet in lowercase letters, except for q & e
+ * this program prints "Programming is in lowercase letters, except for q & e
  * Return: 0
  */
 int main(void)
