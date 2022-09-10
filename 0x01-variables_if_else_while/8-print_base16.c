@@ -6,15 +6,15 @@
 #include <stdio.h>
 
 /*
- * main - Entry point
- * Description: using the main functin
+ * main - Prints all the numbers of base 16 in lowercase.
+ *
+ * Description: using the main function
  * Return: Always 0.
  */
 
-int main(void) - main function
+int main(void)
 {
 	int num;
-
 	char letter;
 
 
