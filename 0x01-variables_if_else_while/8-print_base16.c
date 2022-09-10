@@ -11,7 +11,7 @@
  * Return: Always 0.
  */
 
-int main(void) /* your code goes there*/
+int main(void) - main function
 {
 	int num;
 
