@@ -8,7 +8,7 @@
 /*
  * main - Prints all the numbers of base 16 in lowercase.
  *
- * Description: using the main function
+ * Description: "Programming is numbers of base 16
  * Return: Always 0.
  */
 
