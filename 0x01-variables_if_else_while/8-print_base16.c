@@ -7,13 +7,12 @@
 
 /*
  * main - Entry point
- * Description: using the main function
+ * Description: using the main functin
  * Return: Always 0.
  */
 
-int main(void)
+int main(void) /* your code goes there*/
 {
-	/* your code goes there*/
 	int num;
 
 	char letter;
