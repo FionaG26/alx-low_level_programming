@@ -6,17 +6,14 @@
 #include <stdio.h>
 
 /*
- * main - Prints all the numbers of base 16 in lowercase.
+ * main - Entry point
  * Description: using the main function
- * this program prints "Programming is all the numbers of base 16 in lowercase
  * Return: Always 0.
  */
 
-int main(void) 
-		
+int main(void)
 {
 	/* your code goes there*/
-
 	int num;
 
 	char letter;
