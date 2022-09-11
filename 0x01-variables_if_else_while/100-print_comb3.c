@@ -9,7 +9,6 @@
  *	    a comma followed by a space, in ascending order.
  *
  *  Return: 0 (Sucess)
- *
  */
 
 int main(void)
