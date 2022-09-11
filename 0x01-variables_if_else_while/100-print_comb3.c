@@ -1,16 +1,16 @@
+/*
+ * File: 10-print_comb2.c
+ * Auth: Fiona Githaiga
+ */ 
 #include <stdio.h>
 
 /**
+ *  main - Prints the numbers from 00 to 99, numbers separated by 
+ *	    a comma followed by a space, in ascending order.
  *
- *  * main - Entry point
+ *  Return: 0 (Sucess)
  *
- *   * codes for printing all possible combination of two d/t digits
- *
- *    * in ascending order and seperated by a comma followed by a space
- *
- *     * Return: 0 (Sucess)
- *
- *      */
+ */
 
 int main(void)
 
