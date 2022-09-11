@@ -1,32 +1,30 @@
-/*
- * File: 10-print_comb2.c
- * Auth: Fiona Githaiga
- */
 #include <stdio.h>
-
+#include <unistd.h>
 /**
- *  main - Prints the numbers from 0 to 99
- *
- *  Return: 0 (Sucess)
+ * main - Entry point
+ * Description: prints two digits combination
+ * Return: Always 0 (success)
  */
 int main(void)
-
 {
-	int digit1, digit2;
-	
-	for (digit1 = 0; digit1 <= 9; digit1++)
+	int c, i;
+
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (digit2 = 1; digit2 <= 9; digit2++)
-	{
-			if (digit1 > digit2)
-	{
-				putchar(digit1 + '0')
-				putchar(digit2 + '0')
-				
-				if(digit 1! = 8)
-					putchar (',')
-					putchar (' ');
-	}
+		for (i = '0'; i <= '9'; i++)
+		{
+			if (c < i)
+			{
+				putchar(c);
+				putchar(i);
+
+				if (c != '8' || (c == '8' && i != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
 	}
 	putchar('\n');
 	return (0);
