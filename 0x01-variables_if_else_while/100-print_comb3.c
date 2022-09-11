@@ -5,8 +5,7 @@
 #include <stdio.h>
 
 /**
- *  main - Prints the numbers from 00 to 99, numbers separated by 
- *	    a comma followed by a space, in ascending order.
+ *  main - Prints the numbers from 0 to 99
  *
  *  Return: 0 (Sucess)
  */
@@ -15,7 +14,7 @@ int main(void)
 {
 	int digit1, digit2;
 	
-	for (digit1 = 0; digit1 < 9; digit1++)
+	for (digit1 = 0; digit1 <= 9; digit1++)
 	{
 		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 		{		
