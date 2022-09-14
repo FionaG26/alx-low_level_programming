@@ -4,7 +4,7 @@
  *
  * Return: 0
  */
-void print alphabet(void)
+int main(void)
 {
 	char c;
 
