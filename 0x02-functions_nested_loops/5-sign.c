@@ -1,24 +1,24 @@
 #include "main.h"
 /**
  * print_sign - function to check for a sign of a number
- * @n: Is the int that will use the argument of the function
- * Return : 0
+ * @n: a character that checks for the sign of a number
+ * Return : returns 0,1 or -1 depending on the condition
  */
 int print_sign(int n)
 {
-	if (n > 0)
+	if (n == 0)
 	{
-		_putchar('+')
-			return (1);
+	_putchar('0');
+	return (0);
+	else if (n > 0)
+	{
+	_putchar('+');
+	return (1);
 	}
-	else if (n < 0)
+	if (n < 0)
 	{
-		_putchar('-')
-			return (-1);
+	_putchar('-');
+	return (-1);
 	}
-	else
-	{
-		_putchar('0');
-		return (0);
 	}
 }
