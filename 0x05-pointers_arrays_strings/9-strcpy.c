@@ -3,12 +3,12 @@
 
 /**
  * print_array - Print elements of a array
- * @s: array name.
+ * @a: array name.
  * @n: elements of the array.
  *
  * Return: Always void.
  */
-void print_array(int *s, int n)
+void print_array(int *a, int n)
 {
 	int i = 0;
 
@@ -16,11 +16,11 @@ void print_array(int *s, int n)
 	{
 		if (i != (n - 1))
 		{
-			printf("%d, ", s[i]);
+			printf("%d, ", a[i]);
 		}
 		else
 		{
-			printf("%d", s[i]);
+			printf("%d", a[i]);
 		}
 	}
 	printf("\n");
