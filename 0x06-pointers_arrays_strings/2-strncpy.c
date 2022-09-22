@@ -6,7 +6,7 @@
  * @src: elements of the array.
  * @n: amount of bytes of src array.
  *
- * Return: Array of characteres.
+ * Return: Array of characters.
  */
 char *_strncpy(char *dest, char *src, int n)
 {
