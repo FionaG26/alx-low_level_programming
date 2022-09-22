@@ -5,7 +5,7 @@
  * @s1: array 1.
  * @s2: array 2.
  *
- * Return: Array of characteres.
+ * Return: Array of characters.
  */
 
 int _strcmp(char *s1, char *s2)
