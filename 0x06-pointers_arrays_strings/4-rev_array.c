@@ -5,7 +5,7 @@
  * @y: array
  * @n: elements of the array.
  *
- * Return: Array of reverse characteres.
+ * Return: Array of reverse characters.
  */
 
 void reverse_array(int *y, int n)
