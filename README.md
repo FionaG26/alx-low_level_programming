@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0x0A. C - argc, argv
 
 Learning Objectives
@@ -31,3 +32,7 @@ TASK 4 Write a program that adds positive numbers.
     If no number is passed to the program, print 0, followed by a new line
     If one of the number contains symbols that are not digits, print Error, followed by a new line, and return 1
     You can assume that numbers and the addition of all the numbers can be stored in an int
+=======
+# alx-low_level_programming
+This repository contains C programs written for the low-level programming and algorithm section 
+>>>>>>> bc5531e7b9f35844238f6ab816bfb6e1b4ccdc60
