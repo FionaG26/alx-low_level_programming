@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_listint - print the int value in each element of a list.
+ * print_listint - print the int value in each element of a listint_t.
  * @h: pointer to the head of a list.
  *
  * Return: Number of elements in a list.
