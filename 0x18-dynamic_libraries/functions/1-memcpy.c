@@ -1,15 +1,20 @@
 #include "main.h"
-
 /**
- * _isdigit - Check for digits (0 through 9)
- * @c: int type param
- * Return: 1 if digit, else 0
+ * _memcpy - Copies memory area
+ *
+ * @dest: where to copy the memory to
+ * @n: the number of bytes
+ * @src: the memory area to copy from
+ *
+ * Return: a pointer to @dest
  */
 
-int _isdigit(int c)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
+	unsigned int i;
 
-	return (0);
+	for (i = 0; i < n; i++)
+		dest[i] = src[i];
+
+	return (dest);
 }
