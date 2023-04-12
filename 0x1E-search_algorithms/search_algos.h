@@ -1,5 +1,6 @@
 #ifndef SEARCH_ALGOS_H
 #define SEARCH_ALGOS_H
+#include <stddef.h>
 
 /*function that searches for a value in an array using the linear search algorithm*/
 int linear_search(int *array, size_t size, int value);
