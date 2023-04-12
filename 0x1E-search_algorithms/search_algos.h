@@ -4,12 +4,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct list_s
-{
-    int n;
-    struct list_s *next;
-} list_t;
-
 /*function that searches for a value in an array using the linear search algorithm*/
 int linear_search(int *array, size_t size, int value);
 /*function that searches for a value in a sorted array of integers using the binary search algorithm*/
